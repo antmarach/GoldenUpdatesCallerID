@@ -1,0 +1,22 @@
+{
+    "versionName":  "1.0.3",
+    "build":  4,
+    "minBuild":  0,
+    "date":  "2026-11-20",
+    "notes":  "• Reads the Caller ID address from the Golden Clinic setup QR code\n• New Golden Clinic look (icons and logo)",
+    "apk":  {
+                "file":  "GoldenCallerID_4.apk",
+                "size":  31741719,
+                "sha256":  "6435aab7114f3f27e5b72df31d7192fbeebbc6cc4d1a217019b35c2f9395a59f"
+            },
+    "apk64":  {
+                  "file":  "GoldenCallerID_4.apk",
+                  "size":  31741719,
+                  "sha256":  "6435aab7114f3f27e5b72df31d7192fbeebbc6cc4d1a217019b35c2f9395a59f"
+              },
+    "apk32":  {
+                  "file":  "GoldenCallerID_4.apk",
+                  "size":  31741719,
+                  "sha256":  "6435aab7114f3f27e5b72df31d7192fbeebbc6cc4d1a217019b35c2f9395a59f"
+              }
+}

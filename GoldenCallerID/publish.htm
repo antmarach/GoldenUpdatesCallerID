@@ -1,0 +1,59 @@
+<!doctype html>
+<!-- [GCC] Install page for phones: https://antmarach.github.io/GoldenUpdatesCallerID/GoldenCallerID/publish.htm
+     (the "Install link" of GoldenCallerID on the Golden Release Desk). Template - UploadCallerIDUpdate.ps1 fills
+     the {{...}} values and writes it as GoldenCallerID/publish.htm on every upload. Keep the placeholders.
+     Related: tools/UploadCallerIDUpdate.ps1, CLAUDE.md. Updated: 2026-11-16 - created. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Golden Clinic Caller ID - Install</title>
+<style>
+  :root{--brand:#3f51b5;--gold:#C9A43C;--bg:#f4f5fb;--fg:#1c1d2b;--muted:#5f6175;--card:#fff;--line:#e1e3ef}
+  @media (prefers-color-scheme:dark){:root{--brand:#9fa8da;--bg:#14151d;--fg:#eceef7;--muted:#a3a6bb;--card:#1f2130;--line:#33364a}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+  header{background:#3f51b5;color:#fff;padding:22px 16px 18px;text-align:center}
+  header h1{margin:0;font-size:22px}
+  header h1 span{color:var(--gold)}
+  header p{margin:4px 0 0;opacity:.85;font-size:14px}
+  main{max-width:520px;margin:0 auto;padding:16px;display:grid;gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+  .ver{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+  .ver b{color:var(--fg);font-size:18px}
+  a.btn{display:block;text-align:center;background:var(--gold);color:#1c1d2b;font-weight:bold;font-size:18px;
+        padding:14px;border-radius:12px;text-decoration:none;margin-top:12px}
+  h2{font-size:16px;margin:0 0 8px;color:var(--brand)}
+  ol{margin:0;padding-left:20px}
+  li{margin-bottom:6px}
+  .small{font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>Golden Clinic</span> Caller ID</h1>
+  <p>Sends incoming caller numbers to Golden Clinic</p>
+</header>
+<main>
+  <div class="card">
+    <div class="ver"><span>Version <b>1.0.3</b></span><span>2026-11-20</span></div>
+    <a class="btn" href="../GoldenCallerID_4.apk" download>Download the app (30.3 MB)</a>
+  </div>
+
+  <div class="card">
+    <h2>How to install</h2>
+    <ol>
+      <li>Tap <b>Download the app</b> and wait until the download finishes.</li>
+      <li>Open the downloaded file and tap <b>Install</b>.</li>
+      <li>If the phone asks, allow the browser to install apps ("Allow from this source"), then go back and tap Install.</li>
+    </ol>
+    <p class="small">If the app is already on the phone it is updated and its settings (receiver URL) are kept. After that, updates come from inside the app.</p>
+  </div>
+
+  <div class="card" >
+    <h2>What's new</h2>
+    <div>• Reads the Caller ID address from the Golden Clinic setup QR code<br>• New Golden Clinic look (icons and logo)</div>
+  </div>
+</main>
+</body>
+</html>
